@@ -2,6 +2,8 @@ import sys
 import os
 from datetime import datetime
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 def mostrar_menu():
     """Mostrar menú principal"""
     print("\n" + "="*70)
